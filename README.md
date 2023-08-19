@@ -32,13 +32,13 @@
 ✔️ `git config --global user.email "<someone@gmail.com>" `(enter your email) <br/>
 ✔️ `git config --list` (to check that details are saved or not )<br/>
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <br/>
 
 ### 💙 Git with VScode
 ➔ we can also open intergrated terminal with vscode (From the menu, use the Terminal > New Terminal or View > Terminal menu commands)<br/>
 ➔ same as terminal/git-bash <br/>
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <br/>
 
 ### 💚 Basic commands
 
@@ -53,10 +53,59 @@
 ✔️ `git commit -m "some message"` = record the change <br/>
 ✔️ `git push origin main`  = upload local repo content to remote repo <br/>
 <br/>
-♻️ first clone the github repo on local machine , then check git status , if any file which created newly is untracked then do git add then if we do some changes in that file then again do git commit means save , then if we want to push/upload this file on github then do git push origin main
+♻️ first clone the github repo on local machine , then check git status , if any file which created newly is untracked then do git add then if we do some changes in that file then again do git commit means save , then if we want to push/upload this file on github then do git push origin main <br/>
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/>
 
-### 💜 Init command
+### 💜 Init command - used to create new git repo
+➔ sometimes we started to create project from scratch in our local system and if we want to make new repo then <br/>
+<br/>
+✔️ `git init` =  <br/>
+✔️ `git remote add origin <link>`  = we are adding the link of repo where we want to push our folders from local system <br/>
+✔️ `git remote -v` = to verify remote <br/>
+✔️ `git branch` = to check branch name <br/>
+✔️ `git branch -M main` = to rename branch name to "main" <br/>
+✔️ `git push origin main`  <br/>
 
-✔️ 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
+
+### 💚 Git branches
+➔ it creates the duplicate of main/master branch to work on features or fix bugsv 
+
+![](https://wac-cdn.atlassian.com/dam/jcr:86eba9ec-9391-45ea-800a-948cec1f2ed7/Branch-2.png)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
+
+### 💚 branch commands
+
+✔️ `git branch` = to check branch
+✔️ `git branch -M main` = to rename branch
+✔️ `git checkout <branch-name> ` = to navigate
+✔️ `git checkout -b <new-branch-name>` = to create new branch
+✔️ `git branch -d <branch-name>` = to delete branch
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
+
+### 💛 Merging code
+➔ merging branches <br/> 
+
+✔️ `git diff <branch-name>` = to compare commits,branches,files <br/> 
+✔️ `git merge <branch-name>` = to merge 2 branches <br/>  
+OR create a PR(Pull Request) <br/> 
+ <br/> 
+ 
+💙 **Pull Request** <br/> 
+➔ it lets you tell others about the changes you have pushed to a branch in a repo on github<br/>  ➔ we can get the button "Compare & pull request" of PR at the github repo for merging<br/> 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
+
+### 🧡 Pull command
+
+➔ Now the changes are already done on github using PR from github web and so there is not any changes on our local working system and so we have to do Pull command to see the same repo as github ( first push and then pull )  <br/>
+✔️ `git pull origin main`
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
+
+### 💛 Merge conflicts
+➔ like we have 2branches and at the same place there are different chnages available and so there is conflict
+
