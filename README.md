@@ -78,11 +78,11 @@
 
 ### 💚 branch commands
 
-✔️ `git branch` = to check branch
-✔️ `git branch -M main` = to rename branch
-✔️ `git checkout <branch-name> ` = to navigate
-✔️ `git checkout -b <new-branch-name>` = to create new branch
-✔️ `git branch -d <branch-name>` = to delete branch
+✔️ `git branch` = to check branch <br/>
+✔️ `git branch -M main` = to rename branch <br/>
+✔️ `git checkout <branch-name> ` = to navigate <br/>
+✔️ `git checkout -b <new-branch-name>` = to create new branch <br/>
+✔️ `git branch -d <branch-name>` = to delete branch <br/>
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
 
@@ -107,5 +107,34 @@ OR create a PR(Pull Request) <br/>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
 
 ### 💛 Merge conflicts
-➔ like we have 2branches and at the same place there are different chnages available and so there is conflict
+➔ like we have 2branches and at the same place there are different chnages available and so there is conflict <br/> 
+➔ Vs code already have feature it will ask about it and then you have to select the changes or that is your wish what will be the change  <br/> 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
+
+### 💚 Fixing Mistakes
+
+1️⃣ Staged (git status) changes <br/> 
+✔️ `git reset <fileName>` (for remove change the particular file)  <br/> 
+✔️ `git reset` (for remove the change for all files)  <br/> 
+
+2️⃣ commited changes(for one commit)  <br/> 
+✔️ `git reset HEAD~1` (here head pointer is pointing last commit)  <br/> 
+
+3️⃣ commited changes(for many commits)  <br/> 
+✔️ `git reset <commit-hash>`  <br/> 
+✔️ `git reset --herd <commit-hash>`  <br/> 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
+
+### 💛 What is Forking ?
+➔ a fork is newrepo that shares code and visibility settings with original "upstream" repo  <br/> 
+➔ fork is rough copy  <br/> 
+➔ usage- open source contribution  <br/> 
+ 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+♻️ @ Created by Parth with 💚
+
+
 
