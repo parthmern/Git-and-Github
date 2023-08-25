@@ -134,6 +134,8 @@ OR create a PR(Pull Request) <br/>
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+✔️💚 [cheatSheet](https://drive.google.com/file/d/1K7P-qvJ7fo_zg2ntea9bRxCHorhtiyhr/view?usp=sharing)
+
 ♻️ @ Created by Parth with 💚
 
 
