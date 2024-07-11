@@ -134,6 +134,29 @@ OR create a PR(Pull Request) <br/>
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+### differance
+
+```
+git diff
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  <br/> 
+
+### revert to previous version
+![VvIxF](https://github.com/parthmern/Git-and-Github/assets/125397720/4a6b792e-aa3c-43de-b8de-80e1863d74b8)
+![1_045T7UdsT40cRIwCAnUJ0w](https://github.com/parthmern/Git-and-Github/assets/125397720/0b00e071-523e-4e41-938d-624263bb0de4)
+
+```
+https://stackoverflow.com/questions/19032296/how-to-use-git-revert
+
+git log
+
+git log --oneline
+
+git revert <versionId>
+git reset <versionId> 
+```
+
 ✔️💚 [cheatSheet](https://drive.google.com/file/d/1K7P-qvJ7fo_zg2ntea9bRxCHorhtiyhr/view?usp=sharing)
 
 ♻️ @ Created by Parth with 💚
